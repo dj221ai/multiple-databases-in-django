@@ -8,7 +8,7 @@ It consists of router.py file in contenter app which is used as a database routi
 
 Steps:-
 
-create the project and the app normally you create n django. Add all the apps in INSTALLED_APPS in settings.py file
+create the project and the app normally you create in django. Add all the apps in INSTALLED_APPS in settings.py file
 
 INSTALLED_APPS = [
     'contenter',
