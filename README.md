@@ -3,12 +3,24 @@ This is a short project for showing how we can use multiple databases in django3
 
 
 This project shows how to connect postgresql. 
-This Project consosts of 3 db's (default, usersdb, customerdb) all in postgres and 3 apps (contenter, userchecking, customer). 
+This Project consists of 3 db's named (default, usersdb, customerdb) all in postgres and 3 apps (contenter, userchecking, customer). 
 It consists of router.py file in contenter app which is used as a database routing file.
 
 Steps:-
 
 create the project and the app normally you create n django. Add all the apps in INSTALLED_APPS in settings.py file
+
+INSTALLED_APPS = [
+    'contenter',
+    'customers',
+    'userchecking',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
 
 Router and database configuration in settings.py file:-
 
