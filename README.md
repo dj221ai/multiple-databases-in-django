@@ -58,3 +58,6 @@ DATABASES = {
 
 Note :- The above description is for settings.py file and the remaining you will find in the project. 
 Just need to create router.py file and need to use app_label in your models for reference.
+
+
+While migrating do:- python manage.py migrate --database=nameofyourdb
